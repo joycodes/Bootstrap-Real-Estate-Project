@@ -1,0 +1,168 @@
+.navbar{
+    background-color: rgb(0, 182, 137);
+}
+
+.navbar-link{
+    margin-right: 1em !important;
+}
+
+.navbar-link, .navbar-brand, a{
+    color: white;
+    transition: 500ms;
+
+}
+
+.navbar-link, a:hover{
+    color: rgb(0, 182, 137);
+    background: white;
+}
+
+/* Header CSS */
+.header{
+    position: relative;
+    background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+position: absolute;
+left: 0;
+top: 0;
+min-height: 100%;
+min-width: 100%;
+opacity: 0.5;
+background: rgb(0, 0, 0);
+}
+
+.description{
+position: absolute;
+top: 30%;
+margin: auto;
+padding: 2em;
+}
+
+.description h1{
+color: white;
+}
+
+.description p{
+color: white;
+font-size: 1.1em;
+/* font-weight: 200; */
+width: 70%;
+line-height: 1.5;
+}
+
+.description button{
+border: rgb(0, 182, 137);
+background: rgb(0, 182, 137);
+color: white;
+}
+
+/* READ UP ON BOOTSTRAP DOCUMENTATION
+    1. Boostrap Components
+    2. Boostrap CSS e.g buttons,
+     navbar, dropdown, buttons,cards,
+     form, form-control, images,
+*/
+
+
+/* About US CSS */
+.about{
+    position: relative;
+    margin: 4em;
+}
+
+.about h1{
+    color: rgb(0, 182, 137);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border: solid rgb(131, 131, 131);
+    border-radius: 20%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 125px;
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(214, 214, 214);
+}
+
+.about .about-container h3{
+    font-size: 3.2em;
+}
+
+
+.about .about-container p{
+    line-height: 2;
+}
+
+
+/* Mortagage CSS */
+.mortgage{
+    position: relative;
+    margin: 4em;
+}
+
+
+.mortgage h1{
+    color: rgb(0, 182, 137);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mortgage img{
+    margin: 1em;
+    width: 100%;
+    transition: 500ms;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+.mortgage img:hover{
+    opacity: 1;
+    /* background: rgb(0, 182, 137); */
+}
+
+
+/* Contact US css */
+.contact-form{
+    position: relative;
+    margin: 6em;
+}
+
+.contact-form h1{
+    font-size: 3.2em;
+}
+
+.contact-form .myform{
+    max-width: 600px;
+}
+
+.contact-form .myform  .btn-success{
+    background:rgb(101, 252, 214);
+    color: rgb(0, 182, 137);
+    font-size: 22px;
+    padding: 15px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.contact-form .myform  .btn-success:hover{
+    
+    border: 2px solid rgb(0, 182, 137);
+    background:rgb(0, 182, 137);
+    color: white;
+}
